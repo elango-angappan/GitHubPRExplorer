@@ -25,4 +25,4 @@ This extension only operates on GitHub Pull Request pages and does not collect o
 
 ## Feedback and Support
 
-If you encounter any issues or have suggestions for improvement, please submit them to our [GitHub repository](https://github.com/yourusername/GitHubPRExplorer).
+If you encounter any issues or have suggestions for improvement, please submit them to our [GitHub repository](https://github.com/elango-angappan/GitHubPRExplorer).
