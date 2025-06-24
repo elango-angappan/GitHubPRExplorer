@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub PR File Explorer",
+  "version": "1.0.0",
+  "description": "Enhance your GitHub PR workflow with file viewing tools, review tracking, and convenient features.",
+  "author": "Your Name",
+  "homepage_url": "https://github.com/yourusername/GitHubPRExplorer",
+  "permissions": [
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://github.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*/pull/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
