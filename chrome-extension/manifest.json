@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Enhance your GitHub PR workflow with file viewing tools, review tracking, and convenient features.",
   "author": "Your Name",
-  "homepage_url": "https://github.com/yourusername/GitHubPRExplorer",
+  "homepage_url": "https://github.com/elango-angappan/GitHubPRExplorer",
   "permissions": [
     "scripting",
     "storage"
